@@ -84,6 +84,35 @@ function card({ image, title, artist }, index) {
 const gallery = document.getElementById("gallery");
 if (gallery) gallery.append(...artworks.map(card));
 
+/* One shared footer for every page in this small static site. */
+const footerMount = document.querySelector("[data-footer]");
+if (footerMount) {
+  footerMount.innerHTML = `
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div>
+          <p class="footer-kicker">A considered archive of art</p>
+          <a class="footer-title" href="index.html">Art Collection</a>
+        </div>
+        <div class="footer-contact">
+          <p class="footer-label">Contacts</p>
+          <a href="mailto:hello@artcollection.example">hello@artcollection.example</a>
+          <a href="contact.html">Enquiries &amp; appointments</a>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="index.html">Artwork</a>
+          <a href="about.html">About us</a>
+          <a href="contact.html">Contact</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+      <div class="footer-base">
+        <span>&copy; 2026 Art Collection</span>
+        <a href="contact.html">Terms &amp; information</a>
+      </div>
+    </footer>`;
+}
+
 /* Mobile navigation */
 const toggle = document.querySelector(".nav-toggle");
 const nav = document.getElementById("site-nav");
