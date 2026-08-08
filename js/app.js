@@ -108,7 +108,6 @@ if (footerMount) {
       </div>
       <div class="footer-base">
         <span>&copy; 2026 Art Collection</span>
-        <a href="contact.html">Terms &amp; information</a>
       </div>
     </footer>`;
 }
