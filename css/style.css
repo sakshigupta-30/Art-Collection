@@ -228,15 +228,16 @@ a {
 
 .card-media {
   overflow: hidden;
-  background: var(--border);
+  background: var(--bg-warm);
   position: relative;
 }
 
+/* Works are portrait and landscape both — contain so nothing is cropped. */
 .card img {
   width: 100%;
-  height: auto;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
   transition: transform 700ms var(--ease-editorial), filter 700ms var(--ease-editorial);
 }
 

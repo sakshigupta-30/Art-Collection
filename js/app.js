@@ -1,49 +1,54 @@
 /* Collection data — add an entry here and the grid renders it. */
 const artworks = [
   {
-    image: "https://picsum.photos/id/1015/900/675",
-    title: "The Silent Forest",
-    artist: "John Doe"
+    image: "images/EC2590B2-9692-4798-BBC5-623DD2C46121.jpg",
+    title: "Untitled, 2012",
+    artist: "Tapas Maiti"
   },
   {
-    image: "https://images.unsplash.com/photo-1578321272176-b7bbc0679853?auto=format&fit=crop&w=900&q=70",
-    title: "Study in Ochre",
-    artist: "Meera Nair"
+    image: "images/C615E538-0B22-4A5B-AFD3-33EB13CFC344.jpg",
+    title: "Untitled, 2013",
+    artist: "Tapas Maiti"
   },
   {
-    image: "https://picsum.photos/id/1043/900/675",
-    title: "Untitled (Blue)",
-    artist: "Rafael Costa"
+    image: "images/4234A223-046E-4938-B94D-85D969989701.jpg",
+    title: "Untitled",
+    artist: "Tapas Maiti"
   },
   {
-    image: "https://images.unsplash.com/photo-1531913764164-f85c52e6e654?auto=format&fit=crop&w=900&q=70",
-    title: "Interior With Figure",
-    artist: "Anita Roy"
+    image: "images/1783CF57-B11D-4B14-B063-523168DD8ACF.jpg",
+    title: "Untitled",
+    artist: "Ravi Rajvansh"
   },
   {
-    image: "https://picsum.photos/id/1069/900/675",
-    title: "Salt Field",
-    artist: "Yusuf Karim"
+    image: "images/24901FEC-D5AB-4D06-9AA1-BDB40586422F.jpg",
+    title: "Untitled",
+    artist: "Anjoli Ela Menon"
   },
   {
-    image: "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?auto=format&fit=crop&w=900&q=70",
-    title: "Monsoon Notes",
-    artist: "Leela Varma"
+    image: "images/2E4D671D-85B2-45AF-BBE6-92D2DC4CB88D.jpg",
+    title: "Untitled",
+    artist: "Artist unknown"
   },
   {
-    image: "https://images.unsplash.com/photo-1515405295579-ba7b45403062?auto=format&fit=crop&w=900&q=70",
-    title: "Second Light",
-    artist: "Tomas Weiss"
+    image: "images/64037421-5B57-4BC6-8351-91B7D6744167.jpg",
+    title: "Untitled",
+    artist: "Artist unknown"
   },
   {
-    image: "https://images.unsplash.com/photo-1573221566340-81bdde00e00b?auto=format&fit=crop&w=900&q=70",
-    title: "The Long Afternoon",
-    artist: "Priya Menon"
+    image: "images/C83B764E-F5C5-4040-91C0-7DADD6A0C62B.jpg",
+    title: "Untitled",
+    artist: "Artist unknown"
   },
   {
-    image: "https://images.unsplash.com/photo-1502759683299-cdcd6974244f?auto=format&fit=crop&w=900&q=70",
-    title: "Fragment IX",
-    artist: "Elias Ferrand"
+    image: "images/E5E5A5B7-1EDE-4016-B2EA-26F21F1E71D5.jpg",
+    title: "Snow Maiden, 1947",
+    artist: "Prof. Nicholas Roerich"
+  },
+  {
+    image: "images/A2AB1CFA-78C2-40EB-962A-7CF2D6D5A8CA.jpg",
+    title: "Alexandr Nevsky, 1942",
+    artist: "Prof. Nicholas Roerich"
   }
 ];
 
@@ -54,8 +59,6 @@ function card({ image, title, artist }, index) {
   const img = document.createElement("img");
   img.src = image;
   img.alt = `${title} by ${artist}`;
-  img.width = 900;
-  img.height = 675;
   // First row is above the fold; lazy-load the rest.
   img.loading = index < 3 ? "eager" : "lazy";
   img.decoding = "async";
