@@ -49,6 +49,131 @@ const artworks = [
     image: "images/A2AB1CFA-78C2-40EB-962A-7CF2D6D5A8CA.jpg",
     title: "Alexandr Nevsky, 1942",
     artist: "Prof. Nicholas Roerich"
+  },
+  {
+    image: "images/Artwork 1.jpeg",
+    title: "Earring, One of a Pair",
+    artist: "Artist unknown"
+  },
+  {
+    image: "images/Artwork 2.jpeg",
+    title: "Head of a Man",
+    artist: "In the manner of Pietro Antonio Novelli (Italian, Venice 1729–1804 Venice) "
+  },
+  {
+    image: "images/Artwork 3.jpeg",
+    title: "Plate ",
+    artist: "Ulisse Cantagalli "
+  },
+  {
+    image: "images/Artwork 4.jpeg",
+    title: "Fishbowl with birds and flowers ",
+    artist: "Artist unknown "
+  },
+  {
+    image: "images/Artwork 5.jpeg",
+    title: "Portrait scroll of seven generations of the same family ",
+    artist: "Artist unknown "
+  },
+  {
+    image: "images/Artwork 6.jpeg",
+    title: "Zhong Kui accompanied by an attendant and a bat ",
+    artist: "Artist unknown "
+  },
+  {
+    image: "images/Artwork 7.jpeg",
+    title: "Luohan with an armrest  ",
+    artist: "Artist unknown "
+  },
+  {
+    image: "images/Artwork 8.jpeg",
+    title: " La petite bouteille bleue ",
+    artist: "Samuel Amsler "
+  },
+  {
+    image: "images/Artwork 9.jpeg",
+    title: "Head of Balzac ",
+    artist: "Auguste Rodin "
+  },
+  {
+    image: "images/Artwork 10.jpeg",
+    title: "Despairing Adolescent ",
+    artist: "Auguste Rodin  "
+  },
+  {
+    image: "images/Artwork 11.jpeg",
+    title: "Country Store ",
+    artist: "Reginald Wilson "
+  },
+  {
+    image: "images/Artwork 12.jpeg",
+    title: "Winter Sunlight ",
+    artist: "Glenn Stuart Pearce "
+  },
+  {
+    image: "images/Artwork 13.jpeg",
+    title: "Seated Male Figure ",
+    artist: "Daniel Rasmusson "
+  },
+  {
+    image: "images/Artwork 14.jpeg",
+    title: "Air Raid ",
+    artist: "Joseph Hirsch  "
+  },
+  {
+    image: "images/Artwork 15.jpeg",
+    title: "Linda ",
+    artist: "Dox Thrash "
+  },
+  {
+    image: "images/16.png",
+    title: "Self-Portrait ",
+    artist: "Samuel Joseph Brown, Jr. "
+  },
+  {
+    image: "images/Artwork 17.jpeg",
+    title: "Suggestion by Whistler for his Portrait ",
+    artist: "After James McNeill Whistler "
+  },
+  {
+    image: "images/Artwork 18.jpeg",
+    title: "Rocks and Weeds ",
+    artist: "John Atherton "
+  },
+  {
+    image: "images/Artwork 19.jpeg",
+    title: "Louis XIII style Ovolo frame ",
+    artist: "Artist unknown "
+  },
+  {
+    image: "images/Artwork 20.png",
+    title: "Untitled",
+    artist: "Artist unknown "
+  },
+  {
+    image: "images/Artwork 21.png",
+    title: "Swiss gramophone ",
+    artist: "Artist unknown "
+  },
+  {
+    image: "images/Artwork 22.png",
+    title: "Untitled",
+    artist: "Artist unknown "
+  },
+  {
+    image: "images/Artwork 23.png",
+    title: "Untitled",
+    artist: "Artist unknown "
+  },
+  {
+    image: "images/Artwork 24.png",
+    title: "Untitled",
+    artist: "Artist unknown "
+  },
+  {
+    image: "images/Artwork 25.png",
+    title: "Untitled",
+    artist: "Artist unknown "
   }
 ];
 
@@ -99,7 +224,7 @@ if (footerMount) {
         </div>
         <div class="footer-contact">
           <p class="footer-label">Contacts</p>
-          <a class="footer-phone" href="tel:+917696842238">+91 7696842238</a>
+          <a class="footer-phone" href="tel:+919810241992">+91 98102 41992</a>
           <a href="mailto:hello@artcollection.example">hello@artcollection.example</a>
           <a href="contact.html">Enquiries &amp; appointments</a>
         </div>
@@ -116,6 +241,11 @@ if (footerMount) {
               <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.4 8h4.2v15H.4V8zM8.6 8h4v2.05h.06c.56-1.06 1.94-2.18 4-2.18 4.28 0 5.07 2.82 5.07 6.5V23h-4.2v-6.86c0-1.64-.03-3.75-2.29-3.75-2.29 0-2.64 1.79-2.64 3.63V23H8.6V8z"/>
             </svg>
           </a>
+          <p class="footer-address">
+            <strong>Address:<br></strong>
+            H.No. 10980, East Park Road,<br>
+            Karol Bagh, New Delhi - 5
+          </p>
         </div>
       </div>
       <div class="footer-base">

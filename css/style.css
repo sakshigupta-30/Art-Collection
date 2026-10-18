@@ -688,6 +688,7 @@ a {
 
 .footer-social {
   display: flex;
+  flex-wrap:wrap;
   align-items: center;
   gap: 16px;
   justify-content :center;
@@ -703,6 +704,16 @@ a {
   border-radius: 50%;
   color: inherit;
   transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.footer-address {
+  display: block;
+  width: 100%;
+  margin: 14px 0 0;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #c5c0b6;
+  text-align: center;
 }
 
 .footer-social a:hover {
