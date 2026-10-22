@@ -228,21 +228,9 @@ if (footerMount) {
           <a href="mailto:hello@artcollection.example">hello@artcollection.example</a>
           <a href="contact.html">Enquiries &amp; appointments</a>
         </div>
-        <div class="footer-social" aria-label="Social links">
-          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
-              <rect x="2" y="2" width="20" height="20" rx="5"/>
-              <circle cx="12" cy="12" r="4.2"/>
-              <circle cx="17.4" cy="6.6" r="1"/>
-            </svg>
-          </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.4 8h4.2v15H.4V8zM8.6 8h4v2.05h.06c.56-1.06 1.94-2.18 4-2.18 4.28 0 5.07 2.82 5.07 6.5V23h-4.2v-6.86c0-1.64-.03-3.75-2.29-3.75-2.29 0-2.64 1.79-2.64 3.63V23H8.6V8z"/>
-            </svg>
-          </a>
+       <div class="footer-address-block">
           <p class="footer-address">
-            <strong>Address:<br></strong>
+            <strong>Address:</strong><br>
             H.No. 10980, East Park Road,<br>
             Karol Bagh, New Delhi - 5
           </p>
